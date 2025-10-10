@@ -8,6 +8,7 @@ import Participate from './pages/Participate.jsx'
 import Scroll from './components/Scroll.jsx'
 import Contactus from './pages/Contactus.jsx'
 import Photowall from './pages/Photowall.jsx'
+import { Secretriate } from './pages/Secretriate.jsx'
 export default function App() {
   return (
     <div>
@@ -21,6 +22,7 @@ export default function App() {
           <Route path='/participate' element={<Participate />} />
           <Route path='/Photowall' element={<Photowall />} />
           <Route path='/contactus' element={<Contactus />} />
+          <Route path='/secreteriate' element={<Secretriate />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -78,6 +78,11 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
+            <Link to="/secreteriate" className="text-white hover:text-blue-300 text-lg transition">
+                Secreteriate
+            </Link>
+          </li>
+          <li>
             <Link to="/contactus" className="text-white hover:text-blue-300 text-lg transition">
               Contact Us
             </Link>

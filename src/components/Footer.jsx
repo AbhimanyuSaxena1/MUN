@@ -15,27 +15,30 @@ export default function Footer() {
         {/* Links */}
         <ul className="flex flex-col font-[roboto] md:flex-row justify-center gap-4 md:gap-6 text-lg">
          <Link to="/"><li className="hover:text-blue-300 cursor-pointer">Home</li></Link> 
-      <Link to={"/about"}>
-          <li className="hover:text-blue-300 cursor-pointer">About</li>
-      
-      </Link>
+          <Link to={"/about"}>
+              <li className="hover:text-blue-300 cursor-pointer">About</li>
+          
+          </Link>
           <Link to={"/participate"}>
-  <li className="hover:text-blue-300 cursor-pointer">Participate</li>
+              <li className="hover:text-blue-300 cursor-pointer">Participate</li>
         
           </Link>
-<Link to={"/participate"}>
-                    <li className="hover:text-blue-300 cursor-pointer">Participate</li>
+          <Link to={"/Committee"}>
+                              <li className="hover:text-blue-300 cursor-pointer">Committee</li>
 
-</Link>
-<Link to={"/photowall"}>
-                    <li className="hover:text-blue-300 whitespace-nowrap cursor-pointer">Photo Sphere</li>
+          </Link>
+          <Link to={"/Sce"}>
+                              <li className="hover:text-blue-300 cursor-pointer">Committee</li>
 
-</Link>
+          </Link>
+          <Link to={"/photowall"}>
+                              <li className="hover:text-blue-300 whitespace-nowrap cursor-pointer">Photo Wall </li>
+          </Link>
 
-<Link to={"/contactus"}>
-          <li className="hover:text-blue-300 cursor-pointer">Contact</li>
+          <Link to={"/contactus"}>
+                    <li className="hover:text-blue-300 cursor-pointer">Contact</li>
 
-</Link>
+          </Link>
         </ul>
 
         {/* Copyright */}

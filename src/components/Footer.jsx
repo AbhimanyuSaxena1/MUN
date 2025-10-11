@@ -27,8 +27,8 @@ export default function Footer() {
                               <li className="hover:text-blue-300 cursor-pointer">Committee</li>
 
           </Link>
-          <Link to={"/Sce"}>
-                              <li className="hover:text-blue-300 cursor-pointer">Committee</li>
+          <Link to={"/Secretariat"}>
+                              <li className="hover:text-blue-300 cursor-pointer">Secretariat</li>
 
           </Link>
           <Link to={"/photowall"}>

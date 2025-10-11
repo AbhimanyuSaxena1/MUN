@@ -37,7 +37,7 @@ const Countdown = ({ targetDate }) => {
 
   return (
    <main className=' flex item-center  justify-center p-10'>
-     <div id="countdown" className='flex rounded-xl bg-black text-white border-amber-50 p-10 gap-2 items-center w-fit justify-center font-[Antonio]  '>
+     <div id="countdown" className='flex rounded-xl bg-[#f8de7c] text-[#521C0D] font-bold border-amber-50 p-10 gap-2 items-center w-fit justify-center font-[Antonio]'>
       <div className="cd-item text-xl rounded-lg text-center font-[Antonio]  p-2">
         <span>{timeLeft.days}</span> <p>Days</p>
       </div>

@@ -70,7 +70,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link to="/photowall" className="text-white hover:text-blue-300 text-lg transition">
-              Photo Sphere
+              Photo Wall
             </Link>
           </li><li>
             <Link to="/participate" className="text-white hover:text-blue-300 text-lg transition">
@@ -78,8 +78,8 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="/secreteriate" className="text-white hover:text-blue-300 text-lg transition">
-                Secreteriate
+            <Link to="/committee" className="text-white hover:text-blue-300 text-lg transition">
+committee
             </Link>
           </li>
           <li>
@@ -125,7 +125,7 @@ export default function Navbar() {
               <Link to="/participate" className="text-white text-3xl" onClick={handleBurgerClick}>Participate</Link>
             </li>
              <li>
-              <Link to="/photowall" className="text-white text-3xl" onClick={handleBurgerClick}>Photo Sphere</Link>
+              <Link to="/photowall" className="text-white text-3xl" onClick={handleBurgerClick}>Photo Wall</Link>
             </li>
              <li>
               <Link to="/participate" className="text-white text-3xl" onClick={handleBurgerClick}>Leader Board</Link>

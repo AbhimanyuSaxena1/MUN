@@ -18,7 +18,7 @@ export default function AboutUshero() {
   delay={200}
   animateBy="letters"
   direction="top"
-  className='text-white  text-center !font-[times]  text-[4.1rem]  leading-none     lg:text-[10rem] md:text-[10rem]'
+  className='text-white  text-center !font-[times]   text-[2.1rem]  leading-none     lg:text-[10rem] md:text-[10rem]'
 />
               </div>
             </div>

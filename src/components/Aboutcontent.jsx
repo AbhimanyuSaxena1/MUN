@@ -58,7 +58,7 @@ export default function Aboutcontent() {
             Our Motto
           </h2>
           <p className="text-xl italic text-gray-700">
-            Fostering Global Connections — Empowering Youth Leaders through Diplomatic Discourse and Collaboration
+            Where Legacy Meets Leadership: Cultivating dialogue, diplomacy, and the leaders of tomorrow
           </p>
         </div>
 
